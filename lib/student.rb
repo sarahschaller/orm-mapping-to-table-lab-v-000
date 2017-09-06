@@ -3,7 +3,7 @@ class Student
 
   def initialize(name, grade, id=nil)
     @name = name
-    @album = album
+    @album = grade
     @id = id
   end
 
