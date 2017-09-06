@@ -3,7 +3,7 @@ class Student
 
   def initialize(name, grade, id=nil)
     @name = name
-    @album = grade
+    @grade = grade
     @id = id
   end
 
@@ -17,6 +17,6 @@ class Student
           SQL
     DB[:conn].execute(sql)
   end
-  
+
 
 end
